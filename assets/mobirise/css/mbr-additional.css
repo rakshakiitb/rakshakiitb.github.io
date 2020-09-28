@@ -1157,6 +1157,37 @@ section.lazy-placeholder:after {
 .cid-s7Pe2HdeTE .mbr-text {
   color: #232323;
 }
+.cid-sbQHlTSE7j {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-sbQHlTSE7j .google-map {
+  height: 25rem;
+  position: relative;
+}
+.cid-sbQHlTSE7j .google-map iframe {
+  height: 100%;
+  width: 100%;
+}
+.cid-sbQHlTSE7j .google-map [data-state-details] {
+  color: #6b6763;
+  font-family: Montserrat;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-sbQHlTSE7j .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-sbQHlTSE7j .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
 .cid-s8A9BW82zN {
   padding-top: 120px;
   padding-bottom: 15px;
@@ -2934,7 +2965,7 @@ section.lazy-placeholder:after {
   color: #ff860a !important;
 }
 .cid-s7PniT397l {
-  background-image: url("../../../assets/images/teampic-1-2000x1328.jpg");
+  background-image: url("../../../assets/images/untitled-design-2000x1594.png");
 }
 .cid-s7Pnu5iVmB {
   padding-top: 90px;
