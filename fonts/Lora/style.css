@@ -1,0 +1,56 @@
+@font-face {
+   font-family: 'Lora';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///D:/rakshakiitb.github.io/fonts/Lora/500.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Lora';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///D:/rakshakiitb.github.io/fonts/Lora/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Lora';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///D:/rakshakiitb.github.io/fonts/Lora/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Lora';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///D:/rakshakiitb.github.io/fonts/Lora/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Lora';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///D:/rakshakiitb.github.io/fonts/Lora/italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Lora';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///D:/rakshakiitb.github.io/fonts/Lora/500italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Lora';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///D:/rakshakiitb.github.io/fonts/Lora/600italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Lora';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///D:/rakshakiitb.github.io/fonts/Lora/700italic.ttf') format('truetype');
+}
