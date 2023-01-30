@@ -4,3 +4,101 @@
   min-height: 259px;
   max-height: 259px;
 }
+
+@media (max-width: 767px) {
+	
+	.item-image img
+	{    
+	  /*min-width: 60px;*/
+	  min-height: 189px;
+	  max-height: 189px;
+	}
+
+	 img{
+	 	width: 40%;
+	 	max-height: 20px;
+	 	/*max-width: 160px;*/
+	 }
+
+	 .team1 {
+	    background-color: red;
+	  }
+
+	  .item-name{
+	  	font-size: 2rem;
+	  }
+
+	  .team-item{
+	  	/*height: 12px;*/
+	  	width: 40%;
+	  }
+
+	  .item-caption{
+	  	font-size: 17px;
+	  	/*font-family: cursive;*/
+	  }
+
+	  .display-5{
+	  	font-size: 0.5rem;
+	  	/*calc( 1.2625rem + (1.75 - 1.2625) * ((100vw - 20rem) / (48 - 20)));*/
+	  }
+}
+
+@media (max-width: 450px) {
+	
+	.item-image img
+	{    
+	  /*min-width: 60px;*/
+	  min-height: 129px;
+	  max-height: 129px;
+	}
+
+	 img{
+	 	width: 40%;
+	 	max-height: 20px;
+	 	/*max-width: 160px;*/
+	 }
+
+	 .team1 {
+	    background-color: red;
+	  }
+
+	  .team-item{
+	  	/*height: 12px;*/
+	  	width: 40%;
+	  }
+
+	  .item-caption{
+	  	font-size: 13px;
+	  	/*font-family: cursive;*/
+	  }
+
+	  .display-5{
+	  	font-size: calc( 1.2625rem + (1.75 - 1.2625) * ((100vw - 20rem) / (48 - 20)));
+	  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
