@@ -33,8 +33,70 @@ Team Rakshak is an IIT Bombay student initiative to develop a fleet of robust Un
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="css/team.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  <style>
+    /* CSS Styles for Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      display: flex; /* Display children in a flex layout */
+      justify-content:space-around; /* Evenly distribute children */
+      align-items: flex-start; /* Center align vertically */
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+
+    }
   
+    /* CSS Styles for Links inside Footer */
+    footer a {
+      color: #fff;
+      text-decoration: none;
   
+    }
+  
+    /* CSS Styles for Hover Effect on Links inside Footer */
+    footer a:hover {
+      text-decoration: underline;
+      color: rgb(0, 160, 224);
+    }
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+  
+    /* CSS Styles for Social Media Icons */
+    .social-icons {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .social-icons a {
+      margin: 0 10px;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    @media only screen and (max-width: 768px) {
+    footer {
+      flex-wrap: wrap;
+    }
+    footer div {
+      margin-top: 20px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+
+  </style>
   
   
 </head>
@@ -733,5 +795,36 @@ Team Rakshak is an IIT Bombay student initiative to develop a fleet of robust Un
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
     <input name="animation" type="hidden">
+
+
+    <footer>
+        <div>
+          <h3>Contact Us</h3>
+          <p>rakshak.uavs@gmail.com</p>
+          <p>Address:<br>Dept. of Aerospace Engineering,<br> Main Gate Rd, IIT Area, Powai,<br> Mumbai, Maharashtra 400076</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Plane.html">Plane</a></li>
+            <li><a href="Competition.html">Competition</a></li>
+            <li><a href="Team.html">Team</a></li>
+            <li><a href="Contact us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <ul>
+              <li><a href="https://www.facebook.com/TeamRakshak"><i class="fab fa-facebook"></i>  Rakshak, IITB</a></li>
+              <li><a href="https://www.youtube.com/channel/UCASKCQSdHLXSwWB79vuLJ-A/featured"><i class="fab fa-youtube"></i>        Team Rakshak IITB</a></li>
+              <li><a href="https://www.instagram.com/rakshakiitb/"><i class="fab fa-instagram"></i>  rakshakiitb</a></li>
+              <li><a href="https://github.com/rakshakiitb"><i class="fab fa-github"></i>  rakshakiitb</a></li>
+              <li><a href="https://www.linkedin.com/company/rakshak-iit-bombay/mycompany/"><i class="fab fa-linkedin"></i>  Rakshak IIT Bombay</a></li>
+          </div>
+        </div>
+      </footer>
+
   </body>
 </html>
